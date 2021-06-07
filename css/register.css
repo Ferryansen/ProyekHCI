@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+/* Header */
+
+#header{
+    background-color: black;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    font-size: 50px;
+    background: -webkit-linear-gradient(red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#header-logo{
+    height: 85px;
+}
+
+#header-burger{
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.burger-content{
+    font-size: 20px;
+    color:white;
+    padding: 3px;
+    text-align: center;
+}
+
+.burger-content:hover{
+    background-color: red;
+    color: black;
+}
+
+#burger{
+    position: relative;
+}
+
+#burger:hover #burger-dropdown{
+    display: block;
+}
+
+#burger-dropdown{
+    position: absolute;
+    right: 0;
+
+    background-color: black;
+    width: 200px;
+    display: none;
+}
+
+
+/* Form */
+
+#container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(220, 220, 220);
+    width: 45vw;
+    height: 55vh;
+    border-radius: 2em;
+}
+
+#titleF {
+    text-align: center;
+    margin: 0.5em auto;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 40vw;
+}
+
+.page-form {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.inputs {
+    margin: 1.2em 0;
+}
+
+.inputs h5{
+    font-size: 23px;
+}
+
+.inputs input, .inputs select {
+    width: 18vw;
+    height: 4.5vh;
+    border: none;
+    text-indent: 5px;
+    margin-top: 0.5em;
+}
+
+#btnsub {
+    margin-top: 0.7em;
+    width: 18vw;
+    height: 7.5vh;
+    font-size: 20px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+    border-radius: 5px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#btnsub:hover {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(73, 73, 73);
+    color: rgb(126, 125, 125);
+}
+
+/* Footer */
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding: 0 1em;
+}
+
+#copyright{
+    margin-left: 5px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 25px;
+    padding: 2px;
+    margin-right: 1em;
+}
+
+#follow-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.footer-sosmed{
+    height: 3em;
+    padding: 5px;
+}
+
+#facebookicon{
+    height: 3.4em;
+}
+
+#last-footer-sosmed{
+    margin-left: 1em;
+}
