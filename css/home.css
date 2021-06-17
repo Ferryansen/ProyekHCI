@@ -80,7 +80,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 #about-us-title{
@@ -153,7 +153,6 @@ body{
 
 #agent-quote{
     padding: 50px 100px 150px 100px;
-    color: white;
     font-size: 2em;
 }
 
