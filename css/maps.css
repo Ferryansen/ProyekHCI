@@ -24,9 +24,7 @@ body{
 
 #title{
     font-size: 50px;
-    background: -webkit-linear-gradient(red, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-weight: bold;
 }
 
@@ -81,9 +79,7 @@ body{
 #big-title{
     font-size: 3em;
     text-align: center;
-    background: -webkit-linear-gradient(black, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     font-weight: bold;
 }
 

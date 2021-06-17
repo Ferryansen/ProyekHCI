@@ -6,6 +6,7 @@ a{
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 #header{
@@ -19,9 +20,7 @@ body{
 
 #title{
     font-size: 50px;
-    background: -webkit-linear-gradient(red, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-weight: bold;
 }
 
@@ -70,7 +69,7 @@ body{
 
 #about-game{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
     background-color: #B4B4B4;
@@ -95,7 +94,7 @@ body{
 }
 
 #about-game-pic{
-    height: 300px;
+    height: 250px;
 }
 
 /* content 2 */
