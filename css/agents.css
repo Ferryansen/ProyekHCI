@@ -119,7 +119,7 @@ a{
 #slider{
     display: flex;
     align-items: center;
-    margin-left: 25vw;
+    justify-content: center;
 }
 
 #content p{
@@ -167,6 +167,10 @@ a{
 
 #facebookicon{
     height: 3.4em;
+}
+
+#instaicon{
+    margin-right: 1em;
 }
 
 #last-footer-sosmed{

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -260,26 +266,26 @@ body{
 /* media screen */
 
 @media screen and (max-width: 850px){
-#about-game-pic{
-    width: 350px;
-    height: 200px;
-}
+    #about-game-pic{
+        width: 350px;
+        height: 200px;
+    }
 
-.map-pic{
-    height: 200px;
-}
+    .map-pic{
+        height: 200px;
+    }
 
-#our-agent{
-    margin-left: 0;
-    margin-right: 0;
-}
+    #our-agent{
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-#learn-more-button{
-    width: 15vw;
-    height: 8vh;
-}
+    #learn-more-button{
+        width: 15vw;
+        height: 8vh;
+    }
 
-.footer-text{
-    font-size: 18px;
-}
+    .footer-text{
+        font-size: 18px;
+    }
 }

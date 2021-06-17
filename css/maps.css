@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -171,7 +177,6 @@ body{
 
     background-color: black;
     height: 80px;
-
 }
 
 #copyright{
@@ -182,20 +187,41 @@ body{
     color: white;
     font-size: 25px;
     padding: 2px;
+    margin-right: 1em;
 }
 
 #follow-us{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 5px;
 }
 
 .footer-sosmed{
-    height: 30px;
-    margin: 2px;
+    height: 3em;
+    padding: 5px;
 }
 
-#footer-medsos-spacing{
-    margin-right: 5px;
-    margin-left: 5px;
+#facebookicon{
+    height: 3.4em;
+}
+
+#instaicon{
+    margin-right: 0.8em;
+}
+
+#youtubeicon {
+    margin-left: 0.8em;
+}
+
+#last-footer-sosmed{
+    margin-left: 1em;
+}
+
+/* media screen */
+
+@media screen and (max-width: 850px){
+    .footer-text{
+        font-size: 18px;
+    }
 }
