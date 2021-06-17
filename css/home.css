@@ -73,7 +73,8 @@ body{
     align-items: center;
     
     background-color: #B4B4B4;
-    padding: 10px;
+    padding: 10px 40px 10px 40px;
+    height: 60vh;
 }
 
 #about-game-exp{
@@ -84,24 +85,26 @@ body{
 }
 
 #about-us-title{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #game-exp{
     color: black;
+    font-size: 1.4em;
 }
 
 #about-game-pic{
-    height: 250px;
+    width: 500px;
+    height: 300px;
 }
 
 /* content 2 */
 #map-title{
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -136,7 +139,7 @@ body{
 #agents-title{
     color: black;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -146,13 +149,16 @@ body{
 
 #our-agent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 #agent-quote{
-    padding: 50px 100px 150px 100px;
+    /* padding: 5px 100px 70px 100px; */
+    padding-bottom: 50px;
     font-size: 2em;
 }
 
@@ -166,11 +172,14 @@ body{
 }
 
 #learn-more-button{
+    border: none;
     color:white;
     background-color: red;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    width: 10vw;
+    height: 8vh;
 }
 
 /* content 4 */
@@ -239,11 +248,22 @@ body{
 /* media screen */
 
 @media screen and (max-width: 950px){
+    #about-game-pic{
+        width: 350px;
+        height: 200px;
+    }
+
     .map-pic{
         height: 200px;
     }
 
-    #about-game-pic{
-        height: 200px;
+    #our-agent{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #learn-more-button{
+        width: 15vw;
+        height: 8vh;
     }
 }
