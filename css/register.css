@@ -80,8 +80,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(220, 220, 220);
-    width: 45vw;
-    height: 55vh;
+    width: 55vw;
+    height: 60vh;
     border-radius: 2em;
 }
 
@@ -113,15 +113,20 @@ hr {
 }
 
 .inputs h5{
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .inputs input, .inputs select {
-    width: 18vw;
-    height: 4.5vh;
+    width: 23vw;
+    height: 6vh;
     border: none;
     text-indent: 5px;
     margin-top: 0.5em;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
 }
 
 #btnsub {

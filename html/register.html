@@ -55,22 +55,26 @@
                 <div class="left">
                     <div class="inputs">
                         <h5>Username</h5>
-                        <input type="text" placeholder="enter your username..">
+                        <input id="name" type="text" placeholder="enter your username..">
+                        <p id="errorName" class="error"></p>
                     </div>
                     <div class="inputs">
                         <h5>Email</h5>
-                        <input type="email" placeholder="enter your email..">
+                        <input id="email" type="email" placeholder="enter your email..">
+                        <p id="errorMail" class="error"></p>
                     </div>
                     <div class="inputs">
                         <h5>Password</h5>
-                        <input type="password" placeholder="enter your password..">
+                        <input id="password" type="password" placeholder="enter your password..">
+                        <p id="errorPass" class="error"></p>
                     </div>
                 </div>
     
                 <div class="right">
                     <div class="inputs">
                         <h5>Date of Birth</h5>
-                        <input type="date">
+                        <input id="date" type="date">
+                        <p id="errorDate" class="error"></p>
                     </div>
                     <div class="inputs">
                         <h5>Nationality</h5>
@@ -81,12 +85,14 @@
                             <option value="Singapore">Singapore</option>
                             <option value="nothere">Others</option>
                         </select>
+                        <p id="errorNation" class="error"></p>
                     </div>
                     <div class="inputscheck">
                         <input type="checkbox" id="checkbox">
                         <label for="checkbox">Agreement to user terms</label>
+                        <p id="errorCheck" class="error"></p>
                     </div>
-                    <button id="btnsub" type="submit">Register</button>
+                    <button id="btnsub" onclick="submitData()">Register</button>
                 </div>
             </div>
         </form>
@@ -109,5 +115,6 @@
 
         </div>
     </div>
+    <script src="../js/register.js"></script>
 </body>
 </html>
