@@ -169,6 +169,24 @@ a{
     height: 3.4em;
 }
 
+#instaicon{
+    margin-right: 1em;
+}
+
 #last-footer-sosmed{
     margin: 0 1em;
+}
+
+@media screen and (max-width: 950px) {
+    .footer-text{
+        font-size: 18px;
+    }
+
+    .burger-content{
+        font-size: 15px;
+    }
+
+    #burger-dropdown{
+        width: 145px;
+    }
 }
