@@ -226,44 +226,60 @@ body{
     color: white;
     font-size: 25px;
     padding: 2px;
+    margin-right: 1em;
 }
-
 
 #follow-us{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 5px;
 }
 
 .footer-sosmed{
-    height: 30px;
-    padding: 2px;
+    height: 3em;
+    padding: 5px;
 }
 
-#footer-medsos-spacing{
-    padding-right: 5px;
-    padding-left: 5px;
+#facebookicon{
+    height: 3.4em;
+}
+
+#instaicon{
+    margin-right: 0.8em;
+}
+
+#youtubeicon {
+    margin-left: 0.8em;
+}
+
+#last-footer-sosmed{
+    margin-left: 1em;
 }
 
 /* media screen */
 
-@media screen and (max-width: 950px){
-    #about-game-pic{
-        width: 350px;
-        height: 200px;
-    }
+@media screen and (max-width: 850px){
+#about-game-pic{
+    width: 350px;
+    height: 200px;
+}
 
-    .map-pic{
-        height: 200px;
-    }
+.map-pic{
+    height: 200px;
+}
 
-    #our-agent{
-        margin-left: 0;
-        margin-right: 0;
-    }
+#our-agent{
+    margin-left: 0;
+    margin-right: 0;
+}
 
-    #learn-more-button{
-        width: 15vw;
-        height: 8vh;
-    }
+#learn-more-button{
+    width: 15vw;
+    height: 8vh;
+}
+
+.footer-text{
+    font-size: 18px;
+}
 }
