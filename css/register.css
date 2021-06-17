@@ -187,6 +187,26 @@ hr {
     height: 3.4em;
 }
 
+#instaicon{
+    margin-right: 0.8em;
+}
+
 #last-footer-sosmed{
     margin-left: 1em;
+}
+
+@media screen and (max-width: 850px) {
+    #container {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .inputs input, .inputs select {
+        width: 30vw;
+        height: 6vh;
+    }
+
+    .footer-text{
+        font-size: 18px;
+    }
 }
