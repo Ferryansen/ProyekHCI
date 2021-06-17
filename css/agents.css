@@ -182,11 +182,7 @@ a{
         font-size: 18px;
     }
 
-    .burger-content{
-        font-size: 15px;
-    }
-
-    #burger-dropdown{
-        width: 145px;
+    .card{
+        width: 350px;
     }
 }
