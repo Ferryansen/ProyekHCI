@@ -32,5 +32,6 @@ function submitData() {
     }
     else{
         document.getElementsByClassName('error').innerHTML = ""
+        let result = confirm("Your account has been registered!")
     }
 }

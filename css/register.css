@@ -62,6 +62,7 @@ body{
 #burger-dropdown{
     position: absolute;
     right: 0;
+    z-index: 2;
 
     background-color: black;
     width: 200px;
@@ -195,7 +196,7 @@ hr {
     margin-left: 1em;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
     #container {
         width: 80vw;
         height: 60vh;
@@ -208,5 +209,44 @@ hr {
 
     .footer-text{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #container {
+        position: relative;
+        margin-top: 25em;
+        padding-top: 1em;
+        background-color: rgb(220, 220, 220);
+        width: 80vw;
+        height: 108vh;
+        border-radius: 2em;
+    }
+
+    .page-form {
+        display: block;
+        justify-content: space-between;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .inputs input, .inputs select {
+        width: 66vw;
+        height: 6vh;
+    }
+
+    #footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    
+        background-color: black;
+        height: 80px;
+        padding: 0 1em;
+    }
+
+    .footer-text{
+        font-size: 14px;
     }
 }
