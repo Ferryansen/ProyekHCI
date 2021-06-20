@@ -213,13 +213,15 @@ hr {
 }
 
 @media screen and (max-width: 550px) {
+    body
+
     #container {
         position: relative;
         margin-top: 25em;
         padding-top: 1em;
         background-color: rgb(220, 220, 220);
         width: 80vw;
-        height: 108vh;
+        height: 50em;
         border-radius: 2em;
     }
 

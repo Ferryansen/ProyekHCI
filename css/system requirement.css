@@ -21,7 +21,7 @@ body{
 
 #header{
     background-color: black;
-    height: 70px;
+    height: 11.5%;
 
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ body{
 
 #content{
     background-color: #B4B4B4;
-    height: 77.2%;
+    height: 76%;
 }
 
 #sr-title{
@@ -134,7 +134,8 @@ body{
     align-items: center;
 
     background-color: black;
-    height: 80px;
+    height: 12.5%;
+    padding: 0 1em;
 }
 
 #copyright{
